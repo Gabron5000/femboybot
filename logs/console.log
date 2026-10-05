@@ -1,0 +1,299 @@
+05-10-2026 17:25:39 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+05-10-2026 17:25:39 - discord.client - WARNING - davey is not installed, voice will NOT be supported
+05-10-2026 17:25:39 - discord.client - INFO - logging in using static token
+05-10-2026 17:25:47 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: bee28019b682856070ad2cc46b8ae043).
+05-10-2026 17:25:49 - discord - INFO - 
+
+      ▄▄▄▄▄▄▄▄     ▄▄       ▄▄▄▄    ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄      ▄▄▄▄    ▄▄▄▄▄▄▄▄ ▄▄      ▄▄    ▄▄
+      ▀▀▀▀▀███    ████    ▄█▀▀▀▀█   ▀▀▀██▀▀▀  ██▀▀▀▀▀▀  ██▀▀▀▀█▄  ▄█▀▀▀▀█   ▀▀▀██▀▀▀ ██      ██   ████
+          ██▀     ████    ██▄          ██     ██        ██    ██  ██▄          ██    ▀█▄ ██ ▄█▀   ████
+        ▄██▀     ██  ██    ▀████▄      ██     ███████   ██████▀    ▀████▄      ██     ██ ██ ██   ██  ██
+       ▄██       ██████        ▀██     ██     ██        ██             ▀██     ██     ███▀▀███   ██████
+      ███▄▄▄▄▄  ▄██  ██▄  █▄▄▄▄▄█▀     ██     ██▄▄▄▄▄▄  ██        █▄▄▄▄▄█▀     ██     ███  ███  ▄██  ██▄
+      ▀▀▀▀▀▀▀▀  ▀▀    ▀▀   ▀▀▀▀▀       ▀▀     ▀▀▀▀▀█▀▀  ▀▀         ▀▀▀▀▀       ▀▀     ▀▀▀  ▀▀▀  ▀▀    ▀▀
+                                                  █▄▄
+
+05-10-2026 17:25:49 - discord - INFO - Zalogowano jako FemboyBot (ID: 1556683044994424963). Czekaj...
+05-10-2026 17:25:53 - discord - INFO - Wszystkie zadania zostały poprawnie uruchomione. Enjoy!
+05-10-2026 17:26:19 - discord.commands - INFO - Użytkownik: gabron5000 (ID: 829066637457096764) wywołał polecenie „skonfiguruj” na serwerze „testserver” (ID: 1485714319453720626) na kanale tekstowym #ogólny (ID: 1485714320275935234). Użyte argumenty: szkoła (01), kanał (1485714320275935234). Polecenie wykonane niepomyślnie. (type object 'Constants' has no attribute 'DŁUŻSZA_STOPKA')
+05-10-2026 17:26:19 - discord - ERROR - Wystąpił błąd podczas wywołania polecenia „/skonfiguruj”. Więcej informacji: type object 'Constants' has no attribute 'DŁUŻSZA_STOPKA'
+Traceback (most recent call last):
+  File "C:\Users\anusz\Desktop\zastepstwa-2.3.3.0\src\commands\skonfiguruj.py", line 91, in skonfiguruj
+    embed.set_footer(text=Constants.DŁUŻSZA_STOPKA)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'Constants' has no attribute 'DŁUŻSZA_STOPKA'
+05-10-2026 17:29:29 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+05-10-2026 17:29:29 - discord.client - WARNING - davey is not installed, voice will NOT be supported
+05-10-2026 17:29:29 - discord.client - INFO - logging in using static token
+05-10-2026 17:29:39 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 0778905d7ed4e60b4e8f7422de8a3c49).
+05-10-2026 17:29:41 - discord - INFO - 
+
+      ▄▄▄▄▄▄▄▄     ▄▄       ▄▄▄▄    ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄      ▄▄▄▄    ▄▄▄▄▄▄▄▄ ▄▄      ▄▄    ▄▄
+      ▀▀▀▀▀███    ████    ▄█▀▀▀▀█   ▀▀▀██▀▀▀  ██▀▀▀▀▀▀  ██▀▀▀▀█▄  ▄█▀▀▀▀█   ▀▀▀██▀▀▀ ██      ██   ████
+          ██▀     ████    ██▄          ██     ██        ██    ██  ██▄          ██    ▀█▄ ██ ▄█▀   ████
+        ▄██▀     ██  ██    ▀████▄      ██     ███████   ██████▀    ▀████▄      ██     ██ ██ ██   ██  ██
+       ▄██       ██████        ▀██     ██     ██        ██             ▀██     ██     ███▀▀███   ██████
+      ███▄▄▄▄▄  ▄██  ██▄  █▄▄▄▄▄█▀     ██     ██▄▄▄▄▄▄  ██        █▄▄▄▄▄█▀     ██     ███  ███  ▄██  ██▄
+      ▀▀▀▀▀▀▀▀  ▀▀    ▀▀   ▀▀▀▀▀       ▀▀     ▀▀▀▀▀█▀▀  ▀▀         ▀▀▀▀▀       ▀▀     ▀▀▀  ▀▀▀  ▀▀    ▀▀
+                                                  █▄▄
+
+05-10-2026 17:29:41 - discord - INFO - Zalogowano jako FemboyBot (ID: 1556683044994424963). Czekaj...
+05-10-2026 17:29:42 - discord - INFO - Wszystkie zadania zostały poprawnie uruchomione. Enjoy!
+05-10-2026 17:31:37 - discord.commands - INFO - Użytkownik: gabron5000 (ID: 829066637457096764) wywołał polecenie „skonfiguruj” na serwerze „testserver” (ID: 1485714319453720626) na kanale tekstowym #ogólny (ID: 1485714320275935234). Użyte argumenty: szkoła (01), kanał (1485714320275935234). Polecenie wykonane niepomyślnie. (404 Not Found (error code: 10062): Unknown interaction)
+05-10-2026 17:31:37 - discord - ERROR - Wystąpił błąd podczas wywołania polecenia „/skonfiguruj”. Więcej informacji: 404 Not Found (error code: 10062): Unknown interaction
+Traceback (most recent call last):
+  File "C:\Users\anusz\Desktop\zastepstwa-2.3.3.0\src\commands\skonfiguruj.py", line 92, in skonfiguruj
+    await interaction.response.send_message(embed=embed, view=view)
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\interactions.py", line 1085, in send_message
+    data = await adapter.create_interaction_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+05-10-2026 17:32:38 - discord.commands - INFO - Użytkownik: gabron5000 (ID: 829066637457096764) wywołał polecenie „skonfiguruj” na serwerze „testserver” (ID: 1485714319453720626) na kanale tekstowym #ogólny (ID: 1485714320275935234). Użyte argumenty: szkoła (01), kanał (1485714320275935234). Polecenie wykonane pomyślnie.
+05-10-2026 17:34:00 - discord.ui.view - ERROR - Ignoring exception in view <WidokGłówny timeout=180.0 children=3> for item <PrzyciskUczeń style=<ButtonStyle.primary: 1> url=None disabled=False label='Uczeń' emoji=None row=None sku_id=None id=None>
+Traceback (most recent call last):
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\ui\view.py", line 598, in _scheduled_task
+    await item.callback(interaction)
+  File "C:\Users\anusz\Desktop\zastepstwa-2.3.3.0\src\classes\commands.py", line 375, in callback
+    await interaction.response.send_message(embed=embed, ephemeral=True)
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\interactions.py", line 1085, in send_message
+    data = await adapter.create_interaction_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+05-10-2026 17:35:24 - discord - INFO - Przechwycono Ctrl+C. Trwa zatrzymywanie bota...
+05-10-2026 17:35:32 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+05-10-2026 17:35:32 - discord.client - WARNING - davey is not installed, voice will NOT be supported
+05-10-2026 17:35:32 - discord.client - INFO - logging in using static token
+05-10-2026 17:35:52 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 28e1a35cfdd58a9ba095e3262055e0e1).
+05-10-2026 17:35:54 - discord - INFO - 
+
+      ▄▄▄▄▄▄▄▄     ▄▄       ▄▄▄▄    ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄      ▄▄▄▄    ▄▄▄▄▄▄▄▄ ▄▄      ▄▄    ▄▄
+      ▀▀▀▀▀███    ████    ▄█▀▀▀▀█   ▀▀▀██▀▀▀  ██▀▀▀▀▀▀  ██▀▀▀▀█▄  ▄█▀▀▀▀█   ▀▀▀██▀▀▀ ██      ██   ████
+          ██▀     ████    ██▄          ██     ██        ██    ██  ██▄          ██    ▀█▄ ██ ▄█▀   ████
+        ▄██▀     ██  ██    ▀████▄      ██     ███████   ██████▀    ▀████▄      ██     ██ ██ ██   ██  ██
+       ▄██       ██████        ▀██     ██     ██        ██             ▀██     ██     ███▀▀███   ██████
+      ███▄▄▄▄▄  ▄██  ██▄  █▄▄▄▄▄█▀     ██     ██▄▄▄▄▄▄  ██        █▄▄▄▄▄█▀     ██     ███  ███  ▄██  ██▄
+      ▀▀▀▀▀▀▀▀  ▀▀    ▀▀   ▀▀▀▀▀       ▀▀     ▀▀▀▀▀█▀▀  ▀▀         ▀▀▀▀▀       ▀▀     ▀▀▀  ▀▀▀  ▀▀    ▀▀
+                                                  █▄▄
+
+05-10-2026 17:35:54 - discord - INFO - Zalogowano jako FemboyBot (ID: 1556683044994424963). Czekaj...
+05-10-2026 17:35:56 - discord - INFO - Wszystkie zadania zostały poprawnie uruchomione. Enjoy!
+05-10-2026 17:36:20 - discord.commands - INFO - Użytkownik: gabron5000 (ID: 829066637457096764) wywołał polecenie „skonfiguruj” na serwerze „testserver” (ID: 1485714319453720626) na kanale tekstowym #ogólny (ID: 1485714320275935234). Użyte argumenty: szkoła (01), kanał (1485714320275935234). Polecenie wykonane pomyślnie.
+05-10-2026 17:41:16 - discord - ERROR - Wystąpił błąd podczas wysyłania wiadomości do serwera o ID 1485714319453720626. Więcej informacji: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.description: Must be 4096 or fewer in length.
+Traceback (most recent call last):
+  File "C:\Users\anusz\Desktop\zastepstwa-2.3.3.0\src\handlers\notifications.py", line 112, in wyślijAktualizacje
+    ostatniaWiadomość = await ograniczWysyłanie(kanał, embed=embed)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anusz\Desktop\zastepstwa-2.3.3.0\src\helpers\helpers.py", line 57, in ograniczWysyłanie
+    wiadomość = await kanał.send(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\abc.py", line 1706, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.description: Must be 4096 or fewer in length.
+05-10-2026 19:34:54 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+05-10-2026 19:34:54 - discord.client - WARNING - davey is not installed, voice will NOT be supported
+05-10-2026 19:34:54 - discord.client - INFO - logging in using static token
+05-10-2026 19:35:00 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: b369ad7351602e0a0f73dd0037e4ad85).
+05-10-2026 19:35:02 - discord - INFO - 
+
+      ▄▄▄▄▄▄▄▄     ▄▄       ▄▄▄▄    ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄      ▄▄▄▄    ▄▄▄▄▄▄▄▄ ▄▄      ▄▄    ▄▄
+      ▀▀▀▀▀███    ████    ▄█▀▀▀▀█   ▀▀▀██▀▀▀  ██▀▀▀▀▀▀  ██▀▀▀▀█▄  ▄█▀▀▀▀█   ▀▀▀██▀▀▀ ██      ██   ████
+          ██▀     ████    ██▄          ██     ██        ██    ██  ██▄          ██    ▀█▄ ██ ▄█▀   ████
+        ▄██▀     ██  ██    ▀████▄      ██     ███████   ██████▀    ▀████▄      ██     ██ ██ ██   ██  ██
+       ▄██       ██████        ▀██     ██     ██        ██             ▀██     ██     ███▀▀███   ██████
+      ███▄▄▄▄▄  ▄██  ██▄  █▄▄▄▄▄█▀     ██     ██▄▄▄▄▄▄  ██        █▄▄▄▄▄█▀     ██     ███  ███  ▄██  ██▄
+      ▀▀▀▀▀▀▀▀  ▀▀    ▀▀   ▀▀▀▀▀       ▀▀     ▀▀▀▀▀█▀▀  ▀▀         ▀▀▀▀▀       ▀▀     ▀▀▀  ▀▀▀  ▀▀    ▀▀
+                                                  █▄▄
+
+05-10-2026 19:35:02 - discord - INFO - Zalogowano jako FemboyBot (ID: 1556683044994424963). Czekaj...
+05-10-2026 19:35:03 - discord - INFO - Wszystkie zadania zostały poprawnie uruchomione. Enjoy!
+05-10-2026 19:35:11 - discord - INFO - Roczne podsumowanie statystyk zastępstw zostało pomyślnie dostarczone do serwera o ID 1485714319453720626.
+05-10-2026 19:35:15 - discord - ERROR - Wystąpił błąd podczas wysyłania wiadomości do serwera o ID 1485714319453720626. Więcej informacji: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.description: Must be 4096 or fewer in length.
+Traceback (most recent call last):
+  File "C:\Users\anusz\Desktop\zastepstwa-2.3.3.0\src\handlers\notifications.py", line 111, in wyślijAktualizacje
+    ostatniaWiadomość = await ograniczWysyłanie(kanał, embed=embed)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anusz\Desktop\zastepstwa-2.3.3.0\src\helpers\helpers.py", line 57, in ograniczWysyłanie
+    wiadomość = await kanał.send(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\abc.py", line 1706, in send
+    data = await state.http.send_message(channel.id, params=params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\http.py", line 778, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.description: Must be 4096 or fewer in length.
+05-10-2026 19:40:22 - discord - INFO - Przechwycono Ctrl+C. Trwa zatrzymywanie bota...
+05-10-2026 19:40:31 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+05-10-2026 19:40:31 - discord.client - WARNING - davey is not installed, voice will NOT be supported
+05-10-2026 19:40:31 - discord.client - INFO - logging in using static token
+05-10-2026 19:40:43 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1354c800162572dbc4d89bbbb3f8f4f0).
+05-10-2026 19:40:45 - discord - INFO - 
+
+      ▄▄▄▄▄▄▄▄     ▄▄       ▄▄▄▄    ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄      ▄▄▄▄    ▄▄▄▄▄▄▄▄ ▄▄      ▄▄    ▄▄
+      ▀▀▀▀▀███    ████    ▄█▀▀▀▀█   ▀▀▀██▀▀▀  ██▀▀▀▀▀▀  ██▀▀▀▀█▄  ▄█▀▀▀▀█   ▀▀▀██▀▀▀ ██      ██   ████
+          ██▀     ████    ██▄          ██     ██        ██    ██  ██▄          ██    ▀█▄ ██ ▄█▀   ████
+        ▄██▀     ██  ██    ▀████▄      ██     ███████   ██████▀    ▀████▄      ██     ██ ██ ██   ██  ██
+       ▄██       ██████        ▀██     ██     ██        ██             ▀██     ██     ███▀▀███   ██████
+      ███▄▄▄▄▄  ▄██  ██▄  █▄▄▄▄▄█▀     ██     ██▄▄▄▄▄▄  ██        █▄▄▄▄▄█▀     ██     ███  ███  ▄██  ██▄
+      ▀▀▀▀▀▀▀▀  ▀▀    ▀▀   ▀▀▀▀▀       ▀▀     ▀▀▀▀▀█▀▀  ▀▀         ▀▀▀▀▀       ▀▀     ▀▀▀  ▀▀▀  ▀▀    ▀▀
+                                                  █▄▄
+
+05-10-2026 19:40:45 - discord - INFO - Zalogowano jako FemboyBot (ID: 1556683044994424963). Czekaj...
+05-10-2026 19:40:46 - discord - INFO - Wszystkie zadania zostały poprawnie uruchomione. Enjoy!
+05-10-2026 19:43:20 - discord - INFO - Przechwycono Ctrl+C. Trwa zatrzymywanie bota...
+05-10-2026 19:43:27 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+05-10-2026 19:43:27 - discord.client - WARNING - davey is not installed, voice will NOT be supported
+05-10-2026 19:43:27 - discord.client - INFO - logging in using static token
+05-10-2026 19:43:40 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: b629e135b128c185a63d19f40a2b55b2).
+05-10-2026 19:43:42 - discord - INFO - 
+
+      ▄▄▄▄▄▄▄▄     ▄▄       ▄▄▄▄    ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄      ▄▄▄▄    ▄▄▄▄▄▄▄▄ ▄▄      ▄▄    ▄▄
+      ▀▀▀▀▀███    ████    ▄█▀▀▀▀█   ▀▀▀██▀▀▀  ██▀▀▀▀▀▀  ██▀▀▀▀█▄  ▄█▀▀▀▀█   ▀▀▀██▀▀▀ ██      ██   ████
+          ██▀     ████    ██▄          ██     ██        ██    ██  ██▄          ██    ▀█▄ ██ ▄█▀   ████
+        ▄██▀     ██  ██    ▀████▄      ██     ███████   ██████▀    ▀████▄      ██     ██ ██ ██   ██  ██
+       ▄██       ██████        ▀██     ██     ██        ██             ▀██     ██     ███▀▀███   ██████
+      ███▄▄▄▄▄  ▄██  ██▄  █▄▄▄▄▄█▀     ██     ██▄▄▄▄▄▄  ██        █▄▄▄▄▄█▀     ██     ███  ███  ▄██  ██▄
+      ▀▀▀▀▀▀▀▀  ▀▀    ▀▀   ▀▀▀▀▀       ▀▀     ▀▀▀▀▀█▀▀  ▀▀         ▀▀▀▀▀       ▀▀     ▀▀▀  ▀▀▀  ▀▀    ▀▀
+                                                  █▄▄
+
+05-10-2026 19:43:42 - discord - INFO - Zalogowano jako FemboyBot (ID: 1556683044994424963). Czekaj...
+05-10-2026 19:43:44 - discord - INFO - Wszystkie zadania zostały poprawnie uruchomione. Enjoy!
+05-10-2026 19:43:59 - discord.commands - INFO - Użytkownik: gabron5000 (ID: 829066637457096764) wywołał polecenie „informacje” na serwerze „testserver” (ID: 1485714319453720626) na kanale tekstowym #ogólny (ID: 1485714320275935234). Polecenie wykonane pomyślnie.
+05-10-2026 19:46:04 - discord - INFO - Przechwycono Ctrl+C. Trwa zatrzymywanie bota...
+05-10-2026 19:46:18 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+05-10-2026 19:46:18 - discord.client - WARNING - davey is not installed, voice will NOT be supported
+05-10-2026 19:46:18 - discord.client - INFO - logging in using static token
+05-10-2026 19:46:34 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 127fddd5ffa92abda2abe7e0e86d4d66).
+05-10-2026 19:46:36 - discord - INFO - 
+
+      ▄▄▄▄▄▄▄▄     ▄▄       ▄▄▄▄    ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄      ▄▄▄▄    ▄▄▄▄▄▄▄▄ ▄▄      ▄▄    ▄▄
+      ▀▀▀▀▀███    ████    ▄█▀▀▀▀█   ▀▀▀██▀▀▀  ██▀▀▀▀▀▀  ██▀▀▀▀█▄  ▄█▀▀▀▀█   ▀▀▀██▀▀▀ ██      ██   ████
+          ██▀     ████    ██▄          ██     ██        ██    ██  ██▄          ██    ▀█▄ ██ ▄█▀   ████
+        ▄██▀     ██  ██    ▀████▄      ██     ███████   ██████▀    ▀████▄      ██     ██ ██ ██   ██  ██
+       ▄██       ██████        ▀██     ██     ██        ██             ▀██     ██     ███▀▀███   ██████
+      ███▄▄▄▄▄  ▄██  ██▄  █▄▄▄▄▄█▀     ██     ██▄▄▄▄▄▄  ██        █▄▄▄▄▄█▀     ██     ███  ███  ▄██  ██▄
+      ▀▀▀▀▀▀▀▀  ▀▀    ▀▀   ▀▀▀▀▀       ▀▀     ▀▀▀▀▀█▀▀  ▀▀         ▀▀▀▀▀       ▀▀     ▀▀▀  ▀▀▀  ▀▀    ▀▀
+                                                  █▄▄
+
+05-10-2026 19:46:36 - discord - INFO - Zalogowano jako FemboyBot (ID: 1556683044994424963). Czekaj...
+05-10-2026 19:46:37 - discord - INFO - Wszystkie zadania zostały poprawnie uruchomione. Enjoy!
+05-10-2026 19:53:06 - discord.app_commands.tree - ERROR - Ignoring exception in command 'test'
+Traceback (most recent call last):
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\app_commands\commands.py", line 859, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anusz\Desktop\zastepstwa-2.3.3.0\src\commands\test.py", line 18, in test
+    await interaction.response.defer(ephemeral=True)
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\interactions.py", line 892, in defer
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\app_commands\tree.py", line 1302, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'test' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+05-10-2026 19:53:28 - discord.commands - INFO - Użytkownik: gabron5000 (ID: 829066637457096764) wywołał polecenie „skonfiguruj” na serwerze „testserver” (ID: 1485714319453720626) na kanale tekstowym #ogólny (ID: 1485714320275935234). Użyte argumenty: szkoła (01), kanał (1485714320275935234). Polecenie wykonane pomyślnie.
+05-10-2026 19:55:36 - discord.app_commands.tree - ERROR - Ignoring exception in command 'test'
+Traceback (most recent call last):
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\app_commands\commands.py", line 859, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anusz\Desktop\zastepstwa-2.3.3.0\src\commands\test.py", line 18, in test
+    await interaction.response.defer(ephemeral=True)
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\interactions.py", line 892, in defer
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\app_commands\tree.py", line 1302, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'test' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+05-10-2026 19:55:39 - discord.app_commands.tree - ERROR - Ignoring exception in command 'test'
+Traceback (most recent call last):
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\app_commands\commands.py", line 859, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anusz\Desktop\zastepstwa-2.3.3.0\src\commands\test.py", line 18, in test
+    await interaction.response.defer(ephemeral=True)
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\interactions.py", line 892, in defer
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\app_commands\tree.py", line 1302, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anusz\AppData\Local\Programs\Python\Python313\Lib\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'test' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+05-10-2026 20:00:50 - discord - INFO - Przechwycono Ctrl+C. Trwa zatrzymywanie bota...
+05-10-2026 20:01:02 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+05-10-2026 20:01:02 - discord.client - WARNING - davey is not installed, voice will NOT be supported
+05-10-2026 20:01:02 - discord.client - INFO - logging in using static token
+05-10-2026 20:01:13 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 0237a9a748ba53b35f0a1d528b186207).
+05-10-2026 20:01:15 - discord - INFO - 
+
+      ▄▄▄▄▄▄▄▄     ▄▄       ▄▄▄▄    ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄      ▄▄▄▄    ▄▄▄▄▄▄▄▄ ▄▄      ▄▄    ▄▄
+      ▀▀▀▀▀███    ████    ▄█▀▀▀▀█   ▀▀▀██▀▀▀  ██▀▀▀▀▀▀  ██▀▀▀▀█▄  ▄█▀▀▀▀█   ▀▀▀██▀▀▀ ██      ██   ████
+          ██▀     ████    ██▄          ██     ██        ██    ██  ██▄          ██    ▀█▄ ██ ▄█▀   ████
+        ▄██▀     ██  ██    ▀████▄      ██     ███████   ██████▀    ▀████▄      ██     ██ ██ ██   ██  ██
+       ▄██       ██████        ▀██     ██     ██        ██             ▀██     ██     ███▀▀███   ██████
+      ███▄▄▄▄▄  ▄██  ██▄  █▄▄▄▄▄█▀     ██     ██▄▄▄▄▄▄  ██        █▄▄▄▄▄█▀     ██     ███  ███  ▄██  ██▄
+      ▀▀▀▀▀▀▀▀  ▀▀    ▀▀   ▀▀▀▀▀       ▀▀     ▀▀▀▀▀█▀▀  ▀▀         ▀▀▀▀▀       ▀▀     ▀▀▀  ▀▀▀  ▀▀    ▀▀
+                                                  █▄▄
+
+05-10-2026 20:01:15 - discord - INFO - Zalogowano jako FemboyBot (ID: 1556683044994424963). Czekaj...
+05-10-2026 20:01:16 - discord - INFO - Wszystkie zadania zostały poprawnie uruchomione. Enjoy!
+05-10-2026 20:06:57 - discord.gateway - WARNING - Can't keep up, shard ID None websocket is 15.2s behind.
