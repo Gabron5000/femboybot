@@ -111,43 +111,51 @@ class Zastępstwa(discord.Client):
 		await super().close()
 
 	async def on_ready(self) -> None:
-		"""
-		Ustawia status, synchronizuje polecenia i uruchamia zadania okresowe wywoływane po zalogowaniu bota.
-		"""
+        """
+        Ustawia status, synchronizuje polecenia i uruchamia zadania okresowe wywoływane po zalogowaniu bota.
+        """
 
-		try:
-			self.czas = datetime.now(ZoneInfo("Europe/Warsaw"))
-			logiKonsoli.info(ascii)
-			logiKonsoli.info(
-				f"Zalogowano jako {self.user.name} (ID: {self.user.id}). Czekaj..."
-			)
-			await self.tree.sync()
-			await self.change_presence(
-				status=discord.Status.online,
-				activity=discord.CustomActivity(name="goonuje teraz, hold on")
-			)
+        try:
+            self.czas = datetime.now(ZoneInfo("Europe/Warsaw"))
+            logiKonsoli.info(ascii)
+            logiKonsoli.info(
+                f"Zalogowano jako {self.user.name} (ID: {self.user.id}). Czekaj..."
+            )
 
-			if not getattr(self, "aktualizacje", None) or self.aktualizacje.done():
-				self.aktualizacje = asyncio.create_task(sprawdźAktualizacje(self))
-			else:
-				logiKonsoli.warning(
-					"Zadanie sprawdzające aktualizacje zastępstw jest już uruchomione. Próba ponownego jego uruchomienia została zatrzymana."
-				)
+            # Natychmiastowa synchronizacja dla Twojego serwera
+            ID_SERWERA = 1481735594068414464
+            gildia = discord.Object(id=ID_SERWERA)
+            
+            self.tree.copy_global_to(guild=gildia)
+            await self.tree.sync(guild=gildia)
+            logiKonsoli.info(f"Pomyślnie zsynchronizowano komendy na serwerze {ID_SERWERA}!")
 
-			if not getattr(self, "koniecRoku", None) or self.koniecRoku.done():
-				self.koniecRoku = asyncio.create_task(sprawdźKoniecRoku(self))
-			else:
-				logiKonsoli.warning(
-					"Zadanie sprawdzające zakończenie roku szkolnego jest już uruchomione. Próba ponownego jego uruchomienia została zatrzymana."
-				)
+            await self.change_presence(
+                status=discord.Status.online,
+                activity=discord.CustomActivity(name="goonuje teraz, hold on")
+            )
 
-			logiKonsoli.info(
-				"Wszystkie zadania zostały poprawnie uruchomione. Enjoy!"
-			)
-		except Exception as e:
-			logiKonsoli.exception(
-				f"Wystąpił błąd podczas wywoływania funkcji on_ready. Więcej informacji: {e}"
-			)
+            if not getattr(self, "aktualizacje", None) or self.aktualizacje.done():
+                self.aktualizacje = asyncio.create_task(sprawdźAktualizacje(self))
+            else:
+                logiKonsoli.warning(
+                    "Zadanie sprawdzające aktualizacje zastępstw jest już uruchomione. Próba ponownego jego uruchomienia została zatrzymana."
+                )
+
+            if not getattr(self, "koniecRoku", None) or self.koniecRoku.done():
+                self.koniecRoku = asyncio.create_task(sprawdźKoniecRoku(self))
+            else:
+                logiKonsoli.warning(
+                    "Zadanie sprawdzające zakończenie roku szkolnego jest już uruchomione. Próba ponownego jego uruchomienia została zatrzymana."
+                )
+
+            logiKonsoli.info(
+                "Wszystkie zadania zostały poprawnie uruchomione. Enjoy!"
+            )
+        except Exception as e:
+            logiKonsoli.exception(
+                f"Wystąpił błąd podczas wywoływania funkcji on_ready. Więcej informacji: {e}"
+            )
 
 # Konfiguracja uprawnień bota
 intents = discord.Intents.default()
