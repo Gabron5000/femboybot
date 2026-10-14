@@ -109,7 +109,7 @@ class Zastępstwa(discord.Client):
 
 		await super().close()
 
-	async def on_ready(self) -> None:
+async def on_ready(self) -> None:
 		"""
 		Ustawia status, synchronizuje polecenia i uruchamia zadania okresowe wywoływane po zalogowaniu bota.
 		"""
@@ -123,9 +123,15 @@ class Zastępstwa(discord.Client):
 
 			ID_SERWERA = 1481735594068414464
 			gildia = discord.Object(id=ID_SERWERA)
+
+			# 1. Czyszczenie i synchronizacja globalna (usuwa stare bufory z Discorda)
+			self.tree.clear_commands(guild=None)
+			await self.tree.sync(guild=None)
+
+			# 2. Kopiowanie aktualnych komend i synchronizacja dla Twojego serwera
 			self.tree.copy_global_to(guild=gildia)
 			await self.tree.sync(guild=gildia)
-			logiKonsoli.info(f"Pomyślnie zsynchronizowano komendy na serwerze {ID_SERWERA}!")
+			logiKonsoli.info(f"Pomyślnie nadpisano i zsynchronizowano komendy dla serwera {ID_SERWERA}!")
 
 			await self.change_presence(
 				status=discord.Status.online,
@@ -153,7 +159,6 @@ class Zastępstwa(discord.Client):
 			logiKonsoli.exception(
 				f"Wystąpił błąd podczas wywoływania funkcji on_ready. Więcej informacji: {e}"
 			)
-
 # Konfiguracja uprawnień bota
 intents = discord.Intents.default()
 bot = Zastępstwa(intents=intents)
