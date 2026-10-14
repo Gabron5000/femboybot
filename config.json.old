@@ -7,8 +7,14 @@
             "identyfikator-kanalu": "1485714320275935234",
             "szkoła": "01",
             "wybrane-klasy": [
-                "3H"
+                "3 H"
             ],
+            "wybrani-nauczyciele": []
+        },
+        "1481735594068414464": {
+            "identyfikator-kanalu": "",
+            "szkoła": "",
+            "wybrane-klasy": [],
             "wybrani-nauczyciele": []
         }
     },
@@ -19,7 +25,7 @@
             "kodowanie": "utf-8",
             "lista-klas": {
                 "3": [
-                    "3H"
+                    "3 H"
                 ]
             },
             "lista-nauczycieli": []

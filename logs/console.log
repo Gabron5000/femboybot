@@ -297,3 +297,45 @@ discord.app_commands.errors.CommandInvokeError: Command 'test' raised an excepti
 05-10-2026 20:01:15 - discord - INFO - Zalogowano jako FemboyBot (ID: 1556683044994424963). Czekaj...
 05-10-2026 20:01:16 - discord - INFO - Wszystkie zadania zostały poprawnie uruchomione. Enjoy!
 05-10-2026 20:06:57 - discord.gateway - WARNING - Can't keep up, shard ID None websocket is 15.2s behind.
+05-10-2026 20:30:12 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+05-10-2026 20:30:12 - discord.client - WARNING - davey is not installed, voice will NOT be supported
+05-10-2026 20:30:12 - discord.client - INFO - logging in using static token
+05-10-2026 20:57:49 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+05-10-2026 20:57:49 - discord.client - WARNING - davey is not installed, voice will NOT be supported
+05-10-2026 20:57:49 - discord.client - INFO - logging in using static token
+05-10-2026 20:57:58 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 68c42002183fc9d5e0d0f353fb33fc36).
+05-10-2026 20:58:00 - discord - INFO - 
+
+      ▄▄▄▄▄▄▄▄     ▄▄       ▄▄▄▄    ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄      ▄▄▄▄    ▄▄▄▄▄▄▄▄ ▄▄      ▄▄    ▄▄
+      ▀▀▀▀▀███    ████    ▄█▀▀▀▀█   ▀▀▀██▀▀▀  ██▀▀▀▀▀▀  ██▀▀▀▀█▄  ▄█▀▀▀▀█   ▀▀▀██▀▀▀ ██      ██   ████
+          ██▀     ████    ██▄          ██     ██        ██    ██  ██▄          ██    ▀█▄ ██ ▄█▀   ████
+        ▄██▀     ██  ██    ▀████▄      ██     ███████   ██████▀    ▀████▄      ██     ██ ██ ██   ██  ██
+       ▄██       ██████        ▀██     ██     ██        ██             ▀██     ██     ███▀▀███   ██████
+      ███▄▄▄▄▄  ▄██  ██▄  █▄▄▄▄▄█▀     ██     ██▄▄▄▄▄▄  ██        █▄▄▄▄▄█▀     ██     ███  ███  ▄██  ██▄
+      ▀▀▀▀▀▀▀▀  ▀▀    ▀▀   ▀▀▀▀▀       ▀▀     ▀▀▀▀▀█▀▀  ▀▀         ▀▀▀▀▀       ▀▀     ▀▀▀  ▀▀▀  ▀▀    ▀▀
+                                                  █▄▄
+
+05-10-2026 20:58:00 - discord - INFO - Zalogowano jako FemboyBot (ID: 1556683044994424963). Czekaj...
+05-10-2026 20:58:02 - discord - INFO - Wszystkie zadania zostały poprawnie uruchomione. Enjoy!
+05-10-2026 20:58:44 - discord.commands - INFO - Użytkownik: gabron5000 (ID: 829066637457096764) wywołał polecenie „skonfiguruj” na serwerze „femboy, epstein, penetrator i długi człowiek (sneaky pocie)” (ID: 1481735594068414464) na kanale tekstowym #zastepsrwa (ID: 1556736882732441680). Użyte argumenty: szkoła (01), kanał (1556736882732441680). Polecenie wykonane pomyślnie.
+05-10-2026 20:59:16 - discord.commands - INFO - Użytkownik: gabron5000 (ID: 829066637457096764) wywołał polecenie „skonfiguruj” na serwerze „femboy, epstein, penetrator i długi człowiek (sneaky pocie)” (ID: 1481735594068414464) na kanale tekstowym #zastepsrwa (ID: 1556736882732441680). Użyte argumenty: szkoła (01), kanał (1556736882732441680). Polecenie wykonane pomyślnie.
+05-10-2026 21:00:10 - discord.commands - INFO - Użytkownik: gabron5000 (ID: 829066637457096764) wywołał polecenie „informacje” na serwerze „testserver” (ID: 1485714319453720626) na kanale tekstowym #ogólny (ID: 1485714320275935234). Polecenie wykonane pomyślnie.
+05-10-2026 21:01:58 - discord - INFO - Przechwycono Ctrl+C. Trwa zatrzymywanie bota...
+14-10-2026 18:59:00 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+14-10-2026 18:59:00 - discord.client - WARNING - davey is not installed, voice will NOT be supported
+14-10-2026 18:59:00 - discord.client - INFO - logging in using static token
+14-10-2026 18:59:02 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: ac0f5b8ad0674062e0e79067dc484b4e).
+14-10-2026 18:59:04 - discord - INFO - 
+
+      ▄▄▄▄▄▄▄▄     ▄▄       ▄▄▄▄    ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄      ▄▄▄▄    ▄▄▄▄▄▄▄▄ ▄▄      ▄▄    ▄▄
+      ▀▀▀▀▀███    ████    ▄█▀▀▀▀█   ▀▀▀██▀▀▀  ██▀▀▀▀▀▀  ██▀▀▀▀█▄  ▄█▀▀▀▀█   ▀▀▀██▀▀▀ ██      ██   ████
+          ██▀     ████    ██▄          ██     ██        ██    ██  ██▄          ██    ▀█▄ ██ ▄█▀   ████
+        ▄██▀     ██  ██    ▀████▄      ██     ███████   ██████▀    ▀████▄      ██     ██ ██ ██   ██  ██
+       ▄██       ██████        ▀██     ██     ██        ██             ▀██     ██     ███▀▀███   ██████
+      ███▄▄▄▄▄  ▄██  ██▄  █▄▄▄▄▄█▀     ██     ██▄▄▄▄▄▄  ██        █▄▄▄▄▄█▀     ██     ███  ███  ▄██  ██▄
+      ▀▀▀▀▀▀▀▀  ▀▀    ▀▀   ▀▀▀▀▀       ▀▀     ▀▀▀▀▀█▀▀  ▀▀         ▀▀▀▀▀       ▀▀     ▀▀▀  ▀▀▀  ▀▀    ▀▀
+                                                  █▄▄
+
+14-10-2026 18:59:04 - discord - INFO - Zalogowano jako FemboyBot (ID: 1556683044994424963). Czekaj...
+14-10-2026 18:59:04 - discord - INFO - Wszystkie zadania zostały poprawnie uruchomione. Enjoy!
+14-10-2026 18:59:31 - discord.commands - INFO - Użytkownik: gabron5000 (ID: 829066637457096764) wywołał polecenie „response” na serwerze „testserver” (ID: 1485714319453720626) na kanale tekstowym #ogólny (ID: 1485714320275935234). Polecenie wykonane pomyślnie.

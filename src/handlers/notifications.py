@@ -86,32 +86,25 @@ async def wyślijAktualizacje(
             embed.set_footer(text=Constants.DŁUŻSZA_STOPKA)
             await ograniczWysyłanie(kanał, embed=embed)
 
-            # Wysyłanie poszczególnych kart nauczycieli (np. Marta Cierzniakowska)
+            # Wysyłanie poszczególnych kart nauczycieli
             for tytuł, wpisyZastępstw in aktualneWpisyZastępstw:
+                # Pomijaj całkowicie nieprzypisane klasy
                 if "Zastępstwa z nieprzypisanymi klasami" in tytuł:
-                    tekstZastępstw = (
-                        "\n\n".join(wpisyZastępstw)
-                        + "\n\n**Informacja o tej wiadomości:**"
-                        + "\nTe zastępstwa nie posiadają dołączonej klasy, więc sprawdź czy nie dotyczą Ciebie!"
-                    )
-                else:
-                    tekstZastępstw = "\n\n".join(wpisyZastępstw)
+                    continue
+
+                tekstZastępstw = "\n\n".join(wpisyZastępstw)
 
                 embed = discord.Embed(
                     title=f"**{tytuł}**",
                     description=tekstZastępstw,
                     color=Constants.KOLOR
                 )
-
-                if not "Zastępstwa z nieprzypisanymi klasami!" in tytuł:
-                    embed.set_footer(text=Constants.KRÓTSZA_STOPKA)
-                else:
-                    embed.set_footer(text="Zastępstwa bez dołączonej klasy.")
+                embed.set_footer(text=Constants.KRÓTSZA_STOPKA)
 
                 ostatniaWiadomość = await ograniczWysyłanie(kanał, embed=embed)
 
         # Dodanie reakcji serduszka pod ostatnią kartą
-        if ostatniaWiadomość and not "Zastępstwa z nieprzypisanymi klasami!" in tytuł:
+        if ostatniaWiadomość:
             await ograniczReagowanie(ostatniaWiadomość, "❤️")
 
     except discord.DiscordException as e:

@@ -1,17 +1,21 @@
 {
-    "suma-kontrolna-informacji-dodatkowych": "7164b32f8bc9d857ab069b0d69f4d56c49cccce92916e80b2abfe94051bef325",
-    "suma-kontrolna-wpisow-zastepstw": "9643aa58f0b3cbf37febcab7e22e4be363aefd2ada6ff8488ed612cba023ac3a",
-    "licznik-zastepstw": 84,
+    "suma-kontrolna-informacji-dodatkowych": "5304f67fb3b61cddf0c68cbc90baad8f11cf3e6bde0bb86b2dd4cdce284af7ab",
+    "suma-kontrolna-wpisow-zastepstw": "2755f4e5100c3d82a543c9976485a79a2179b17c1bc8a5995a83e8902279fd92",
+    "licznik-zastepstw": 117,
     "statystyki-nauczycieli": {
         "Marta Cierzniakowska": 24,
         "Agnieszka Dembczyska": 4,
-        "Vakat EduZdr.": 6,
-        "Danuta Gierczak-Pliszka": 6,
+        "Vakat EduZdr.": 8,
+        "Danuta Gierczak-Pliszka": 11,
         "Piotr Kulpa": 10,
         "Ewelina Piekosz-Kumor": 10,
         "Monika Rybacka": 16,
-        "Informatyka1 Vacat": 4,
-        "techniczny Vacat tech": 4
+        "Informatyka1 Vacat": 7,
+        "techniczny Vacat tech": 4,
+        "Magdalena Chemiska": 7,
+        "Karolina Kosecka": 5,
+        "Jerzy Kuba": 5,
+        "Justyna Siegert": 6
     },
     "ostatni-raport": ""
 }

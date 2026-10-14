@@ -24,9 +24,11 @@ import discord
 from src.assets.ascii import ascii
 from src.commands import (
 	informacje,
+	response,
 	skonfiguruj,
 	statystyki,
 	test
+
 )
 from src.events import (
 	join,
@@ -153,6 +155,7 @@ bot = Zastępstwa(intents=intents)
 
 # Import poleceń i eventów do synchronizacji
 informacje.ustaw(bot)
+response.ustaw(bot)
 skonfiguruj.ustaw(bot)
 statystyki.ustaw(bot)
 test.ustaw(bot)
