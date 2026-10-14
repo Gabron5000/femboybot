@@ -121,17 +121,14 @@ async def on_ready(self) -> None:
 				f"Zalogowano jako {self.user.name} (ID: {self.user.id}). Czekaj..."
 			)
 
-			ID_SERWERA = 1481735594068414464
-			gildia = discord.Object(id=ID_SERWERA)
+			# 1. Usuwamy komendy serwerowe ze wszystkich połączonych serwerów
+			for guild in self.guilds:
+				self.tree.clear_commands(guild=guild)
+				await self.tree.sync(guild=guild)
 
-			# 1. Czyszczenie i synchronizacja globalna (usuwa stare bufory z Discorda)
-			self.tree.clear_commands(guild=None)
-			await self.tree.sync(guild=None)
-
-			# 2. Kopiowanie aktualnych komend i synchronizacja dla Twojego serwera
-			self.tree.copy_global_to(guild=gildia)
-			await self.tree.sync(guild=gildia)
-			logiKonsoli.info(f"Pomyślnie nadpisano i zsynchronizowano komendy dla serwera {ID_SERWERA}!")
+			# 2. Rejestrujemy tylko jeden zestaw komend globalnych
+			await self.tree.sync()
+			logiKonsoli.info("Pomyślnie wyczyszczono serwerowe komendy i zsynchronizowano globalne!")
 
 			await self.change_presence(
 				status=discord.Status.online,
@@ -142,14 +139,14 @@ async def on_ready(self) -> None:
 				self.aktualizacje = asyncio.create_task(sprawdźAktualizacje(self))
 			else:
 				logiKonsoli.warning(
-					"Zadanie sprawdzające aktualizacje zastępstw jest już uruchomione. Próba ponownego jego uruchomienia została zatrzymana."
+					"Zadanie sprawdzające aktualizacje zastępstw jest już uruchomione."
 				)
 
 			if not getattr(self, "koniecRoku", None) or self.koniecRoku.done():
 				self.koniecRoku = asyncio.create_task(sprawdźKoniecRoku(self))
 			else:
 				logiKonsoli.warning(
-					"Zadanie sprawdzające zakończenie roku szkolnego jest już uruchomione. Próba ponownego jego uruchomienia została zatrzymana."
+					"Zadanie sprawdzające zakończenie roku szkolnego jest już uruchomione."
 				)
 
 			logiKonsoli.info(
