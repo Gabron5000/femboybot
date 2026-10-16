@@ -60,6 +60,7 @@ class Zastępstwa(discord.Client):
 
 		super().__init__(intents=intents)
 		self.tree = discord.app_commands.CommandTree(self)
+		self.czas = datetime.now(ZoneInfo("Europe/Warsaw"))
 
 	async def setup_hook(self) -> None:
 		"""
@@ -109,9 +110,9 @@ class Zastępstwa(discord.Client):
 
 		await super().close()
 
-async def on_ready(self) -> None:
+	async def on_ready(self) -> None:
 		"""
-		Ustawia status, synchronizuje polecenia i uruchamia zadania okresowe wywoływane po zalogowaniu bota.
+		Ustawia status, czyszcząc stare bufory i re-synchronizując czysty zestaw poleceń.
 		"""
 
 		try:
@@ -121,14 +122,14 @@ async def on_ready(self) -> None:
 				f"Zalogowano jako {self.user.name} (ID: {self.user.id}). Czekaj..."
 			)
 
-			# 1. Usuwamy komendy serwerowe ze wszystkich połączonych serwerów
+			# 1. Czyszczenie starych komend przypisanych bezpośrednio do gildii/serwerów
 			for guild in self.guilds:
 				self.tree.clear_commands(guild=guild)
 				await self.tree.sync(guild=guild)
 
-			# 2. Rejestrujemy tylko jeden zestaw komend globalnych
+			# 2. Synchronizacja jednolitego zestawu komend globalnych
 			await self.tree.sync()
-			logiKonsoli.info("Pomyślnie wyczyszczono serwerowe komendy i zsynchronizowano globalne!")
+			logiKonsoli.info("Usunięto stare bufory i zsynchronizowano pojedyncze komendy globalne!")
 
 			await self.change_presence(
 				status=discord.Status.online,
@@ -156,6 +157,7 @@ async def on_ready(self) -> None:
 			logiKonsoli.exception(
 				f"Wystąpił błąd podczas wywoływania funkcji on_ready. Więcej informacji: {e}"
 			)
+
 # Konfiguracja uprawnień bota
 intents = discord.Intents.default()
 bot = Zastępstwa(intents=intents)
